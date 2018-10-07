@@ -7,6 +7,9 @@ to interact with a user data stored in a file.
 This API can be further integrated with MongoDB replacing the file.
 
 Project Structure.
+------------------------------------
+
+```bash
 Node.js-API:.
 │   Readme.md
 │
@@ -30,3 +33,4 @@ Node.js-API:.
             data.js     ->(low level functions to interact with user files)
             handlers.js ->(CRUD functions for handlers)
             helpers.js  ->(contains a hash function for unique user id)
+```
